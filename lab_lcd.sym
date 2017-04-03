@@ -1,0 +1,144 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     contador
+005     contador1
+006     dato
+007     dato1
+008     bandera
+009     bandera1
+00A     valor_lcd.cont
+00A     lcd_init.i
+00B     valor_lcd.centenas
+00B     lcd_init.@SCRATCH1
+00C     valor_lcd.decenas
+00D     valor_lcd.unidades
+00E     @PSTRINGC_115.@SCRATCH1
+00E     valor_lcd.@SCRATCH1
+00F     @DIV88.P1
+00F     @PSTRINGC_115.@SCRATCH2
+010     @DIV88.P1
+010     @PSTRINGC_115.@SCRATCH3
+011     lcd_putc.c
+011     @DIV88.@SCRATCH1
+012     lcd_gotoxy.x
+012     @delay_ms1.P1
+013     lcd_gotoxy.y
+014     lcd_gotoxy.address
+015     lcd_gotoxy.@SCRATCH1
+016     lcd_send_byte.address
+017     lcd_send_byte.n
+018     lcd_send_byte.@SCRATCH1
+019     lcd_send_nibble.nibble
+F01     CCP_10_LOW
+F01     CCP_10
+F02     CCP_10_HIGH
+F04     CCP_9
+F04     CCP_9_LOW
+F05     CCP_9_HIGH
+F07     CCP_8_LOW
+F07     CCP_8
+F08     CCP_8_HIGH
+F0A     CCP_7_LOW
+F0A     CCP_7
+F0B     CCP_7_HIGH
+F0D     CCP_6_LOW
+F0D     CCP_6
+F0E     CCP_6_HIGH
+F10     CCP_5_LOW
+F10     CCP_5
+F11     CCP_5_HIGH
+F13     CCP_4
+F13     CCP_4_LOW
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2
+FB5     CCP_2_LOW
+FB6     CCP_2_HIGH
+FBB     CCP_1_LOW
+FBB     CCP_1
+FBC     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0010B2  @delay_ms1
+001008  LCD_INIT_STRING
+0010DA  lcd_send_nibble
+001120  lcd_send_byte
+00115C  lcd_init
+0011AC  lcd_gotoxy
+0011D0  lcd_putc
+0012D4  MAIN
+001020  @const132
+001214  @PSTRINGC_115
+001030  @const134
+00103E  @const135
+001040  @const136
+001042  @const137
+001044  @const138
+001054  @const139
+001056  @const140
+001066  @const141
+001076  @const142
+001086  @const143
+001088  @const144
+00109A  @const145
+00109C  @const146
+00123C  @DIV88
+001264  valor_lcd
+0010A8  @const153
+0010B0  @const154
+0012D4  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    lab_lcd.c                                               [16-feb.-17 08:47  CRC=4248DC7E]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    flex_lcd.c                                              [07-feb.-17 09:24  CRC=7CA094B2]
+
+Source signature=5C5ED01E
+
+Units:
+    D:\Plantilla_base\lab_lcd (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      lab_lcd.err
+    Ext Symbols: lab_lcd.esym
+    INHX32:      lab_lcd.hex
+    Symbols:     lab_lcd.sym
+    List:        lab_lcd.lst
+    Debug/COFF:  lab_lcd.cof
+    Project:     lab_lcd.PJT
+    Call Tree:   lab_lcd.tre
+    Statistics:  lab_lcd.STA

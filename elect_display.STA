@@ -1,0 +1,46 @@
+
+ROM used: 398 (0%)
+          402 (0%) including unused fragments
+
+          0 Average locations per line
+          15 Average locations per statement
+
+RAM used: 27 (1%) at main() level
+          27 (1%) worst case
+
+Stack used: 1 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   65    26 100  elect_display.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  845    26 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   5   1             @delay_ms1
+0    354  44   3   803  5.3  main
+
+Program metrics:
+    Functions               1
+    Statements              26
+    Comments                227
+    Volume (V)              806
+    Difficilty (D)          5.2
+    Effort to implement (E) 4209
+    Time to implement (T)   4 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   4
+    Maintainability (MI)    34
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE   394  61038  
+10000-1FFF6     0  65528  
+
+
+

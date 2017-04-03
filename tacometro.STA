@@ -1,0 +1,73 @@
+
+ROM used: 4840 (4%)
+          4844 (4%) including unused fragments
+
+          1 Average locations per line
+          8 Average locations per statement
+
+RAM used: 1128 (30%) at main() level
+          1171 (31%) worst case
+
+Stack used: 5 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  113    56   9  tacometro.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  22  GLCD_128x64_KS0108.c
+  540   163  27  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  42  C:\Program Files (x86)\PICC\drivers\math.h
+----- -----
+ 4057   608 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44   0   1             @delay_ms1
+0    170   2   1   580  3.2  glcd_init
+0    184   2   7   624  5.5  glcd_update
+0    188   2   9   491  8.4  glcd_pixel
+0     90   1  10   335  5.0  glcd_fillScreen
+0    214   2   3  1551  3.4  glcd_writeByte
+0    276   3   0             @const141
+0    240   2   0             @const144
+0    314   3  17  1519  9.2  glcd_line
+0    424   4  20  1595 11.3  glcd_text57
+0    246   3  11             @MULFF
+0    660   7   1  1705  4.4  MAIN
+0     18   0   0             @const356
+0     32   0   1             @SPRINTF
+0     40   0   3             @PSTRINGC_358
+0     14   0   0             @const361
+0     10   0   0             @const362
+0    148   2  13             @DIV3232
+0    220   2  12             @PRINTF_L32U_358
+0     20   0   0             @const369
+0     68   1   5             @FTOSD
+0    466   5  13             @PRINTF_L32D_358FPFPF
+0    416   4   4   420  4.7  interr_TIMER2
+0     94   1  14             @MUL3232
+0     58   1   4             @DTOF
+
+Program metrics:
+    Functions               9
+    Statements              608
+    Comments                823
+    Volume (V)              12932
+    Difficilty (D)          53.3
+    Effort to implement (E) 689555
+    Time to implement (T)   10 hours, 38 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   37
+    Maintainability (MI)    103
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-010BC   182  0  
+010BE-0FFFE  4654  56596  
+10000-1FFF6     0  65528  
+
+
+

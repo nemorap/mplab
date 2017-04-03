@@ -1,0 +1,90 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     contador
+005     dato
+F01     CCP_10
+F01     CCP_10_LOW
+F02     CCP_10_HIGH
+F04     CCP_9_LOW
+F04     CCP_9
+F05     CCP_9_HIGH
+F07     CCP_8_LOW
+F07     CCP_8
+F08     CCP_8_HIGH
+F0A     CCP_7
+F0A     CCP_7_LOW
+F0B     CCP_7_HIGH
+F0D     CCP_6_LOW
+F0D     CCP_6
+F0E     CCP_6_HIGH
+F10     CCP_5_LOW
+F10     CCP_5
+F11     CCP_5_HIGH
+F13     CCP_4
+F13     CCP_4_LOW
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1
+FBB     CCP_1_LOW
+FBC     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+001008  main
+001008  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    dipsw.c                                                 [02-feb.-17 08:11  CRC=2E32710D]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+
+Source signature=6CF177C5
+
+Units:
+    D:\Plantilla_base\dipsw (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      dipsw.err
+    Ext Symbols: dipsw.esym
+    INHX32:      dipsw.hex
+    Symbols:     dipsw.sym
+    List:        dipsw.lst
+    Debug/COFF:  dipsw.cof
+    Project:     dipsw.PJT
+    Call Tree:   dipsw.tre
+    Statistics:  dipsw.STA

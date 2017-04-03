@@ -1,0 +1,45 @@
+
+ROM used: 312 (0%)
+          316 (0%) including unused fragments
+
+          0 Average locations per line
+          6 Average locations per statement
+
+RAM used: 6 (0%) at main() level
+          6 (0%) worst case
+
+Stack used: 0 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  106    55 100  rio.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  886    55 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0    308  49   0  1529  9.3  main
+
+Program metrics:
+    Functions               1
+    Statements              55
+    Comments                228
+    Volume (V)              1529
+    Difficilty (D)          9.3
+    Effort to implement (E) 14207
+    Time to implement (T)   13 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   14
+    Maintainability (MI)    15
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE   308  61124  
+10000-1FFF6     0  65528  
+
+
+

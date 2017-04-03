@@ -1,0 +1,67 @@
+
+ROM used: 4700 (4%)
+          4704 (4%) including unused fragments
+
+          1 Average locations per line
+          7 Average locations per statement
+
+RAM used: 1202 (32%) at main() level
+          1225 (33%) worst case
+
+Stack used: 3 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  161    97  15  graficadora_trabajo4.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  20  GLCD_128x64_KS0108.c
+  540   163  25  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  40  C:\Program Files (x86)\PICC\drivers\math.h
+   72     0   0  lobo.h
+----- -----
+ 4177   649 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0    170   2   1   580  3.2  glcd_init
+0    184   2   7   624  5.5  glcd_update
+0    188   2   9   491  8.4  glcd_pixel
+0     90   1  10   335  5.0  glcd_fillScreen
+0    214   2   3  1551  3.4  glcd_writeByte
+0    276   3   0             @const141
+0    240   3   0             @const144
+0    314   3  17  1519  9.2  glcd_line
+0    424   5  20  1595 11.3  glcd_text57
+0   1042  11   0             @const353
+0    238   3  16   505  4.8  PrintLogo
+0   1140  12   4  4478  7.9  MAIN
+0     18   0   0             @const364
+0     32   0   1             @SPRINTF
+0     40   0   3             @PSTRINGC_366
+0     14   0   0             @const369
+0     12   0   0             @const370
+0     18   0   0             @const371
+
+Program metrics:
+    Functions               9
+    Statements              649
+    Comments                844
+    Volume (V)              16433
+    Difficilty (D)          57.4
+    Effort to implement (E) 942485
+    Time to implement (T)   14 hours, 33 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   50
+    Maintainability (MI)    94
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  4696  56736  
+10000-1FFF6     0  65528  
+
+
+

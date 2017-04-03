@@ -1,0 +1,192 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     @INTERRUPT_AREA
+01A     @INTERRUPT_AREA
+01B     @INTERRUPT_AREA
+01C-043 text_glcd
+044     last_key
+045     last_screen
+046     dato
+047     refresh
+048     cajas
+049-04F valor2
+050-44F displayData
+450-451 @sprintf_string
+452     MAIN.i
+452-455 atan2.y
+453     glcd_init.mode
+453     @PRINTF_U_354.P1
+453     glcd_text57.x
+453     @PSTRINGC_354.@SCRATCH1
+454     glcd_text57.y
+454     glcd_fillScreen.color
+454     glcd_update.i
+454     @PRINTF_U_354.P1
+454     @PSTRINGC_354.@SCRATCH2
+455     glcd_fillScreen.data
+455     glcd_update.j
+455     @DIV88.P1
+455-456 glcd_text57.textptr
+455     @PSTRINGC_354.@SCRATCH3
+456-457 glcd_fillScreen.p1
+456-457 glcd_update.p1
+456-459 atan2.x
+456     @DIV88.P1
+456     @SPRINTF.P2
+457     glcd_text57.size
+457     @DIV88.@SCRATCH1
+458     glcd_text57.color
+458-459 glcd_update.p2
+458-459 glcd_fillScreen.p2
+459     glcd_text57.j
+45A-45B glcd_fillScreen.i
+45A     glcd_text57.k
+45A-45D atan2.z
+45A     glcd_update.@SCRATCH1
+45B     glcd_text57.l
+45B     glcd_writeByte.side
+45C     glcd_writeByte.data
+45C     glcd_text57.m
+45C     glcd_fillScreen.@SCRATCH1
+45D-461 glcd_text57.pixelData
+45D     glcd_fillScreen.@SCRATCH2
+45D     glcd_writeByte.@SCRATCH1
+45E.0   atan2.sign
+45F     atan2.quad
+462     glcd_text57.@SCRATCH1
+463     glcd_text57.@SCRATCH2
+464     glcd_pixel.x
+464     glcd_text57.@SCRATCH3
+465     glcd_pixel.y
+465     glcd_text57.@SCRATCH4
+466     glcd_pixel.color
+466     glcd_text57.@SCRATCH5
+467-468 glcd_pixel.p
+469-46A glcd_pixel.temp
+46B     glcd_pixel.@SCRATCH1
+46C     glcd_pixel.@SCRATCH2
+46D     @delay_ms1.P1
+F01     CCP_10
+F01     CCP_10_LOW
+F02     CCP_10_HIGH
+F04     CCP_9_LOW
+F04     CCP_9
+F05     CCP_9_HIGH
+F07     CCP_8_LOW
+F07     CCP_8
+F08     CCP_8_HIGH
+F0A     CCP_7
+F0A     CCP_7_LOW
+F0B     CCP_7_HIGH
+F0D     CCP_6
+F0D     CCP_6_LOW
+F0E     CCP_6_HIGH
+F10     CCP_5
+F10     CCP_5_LOW
+F11     CCP_5_HIGH
+F13     CCP_4
+F13     CCP_4_LOW
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1
+FBB     CCP_1_LOW
+FBC     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0002D8  @delay_ms1
+000508  glcd_init
+000450  glcd_update
+0005FA  glcd_pixel
+0003F6  glcd_fillScreen
+000320  glcd_writeByte
+0000BE  FONT
+0001D2  FONT2
+0006B8  glcd_text57
+000904  MAIN
+0002C2  @const352
+0005B2  @SPRINTF
+0005D2  @PSTRINGC_354
+00085C  @DIV88
+000888  @PRINTF_U_354
+0002CE  @const364
+000302  interr_EXTERNA
+000904  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    quiz_interrup.c                                         [21-mar.-17 09:47  CRC=D6D959DF]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    GLCD_128x64_KS0108.c                                    [18-feb.-17 09:29  CRC=77F3865A]
+    C:\Program Files (x86)\PICC\drivers\graphics.c          [06-jul.-10 08:49  CRC=70BB89DE]
+    C:\Program Files (x86)\PICC\drivers\math.h              [11-abr.-11 09:02  CRC=A2852B04]
+
+Source signature=227CFC9B
+
+Units:
+    D:\Plantilla_base\quiz_interrup (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      quiz_interrup.err
+    Ext Symbols: quiz_interrup.esym
+    INHX32:      quiz_interrup.hex
+    Symbols:     quiz_interrup.sym
+    List:        quiz_interrup.lst
+    Debug/COFF:  quiz_interrup.cof
+    Project:     quiz_interrup.PJT
+    Call Tree:   quiz_interrup.tre
+    Statistics:  quiz_interrup.STA

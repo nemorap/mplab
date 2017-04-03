@@ -1,0 +1,100 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     contador
+005-015 vector
+016     x
+017     y
+018     temp
+019     dato
+01A     dato1
+01B     dato2
+01C     resul
+01D     @delay_ms1.P1
+01D     main.@SCRATCH1
+F01     CCP_10
+F01     CCP_10_LOW
+F02     CCP_10_HIGH
+F04     CCP_9_LOW
+F04     CCP_9
+F05     CCP_9_HIGH
+F07     CCP_8
+F07     CCP_8_LOW
+F08     CCP_8_HIGH
+F0A     CCP_7_LOW
+F0A     CCP_7
+F0B     CCP_7_HIGH
+F0D     CCP_6
+F0D     CCP_6_LOW
+F0E     CCP_6_HIGH
+F10     CCP_5
+F10     CCP_5_LOW
+F11     CCP_5_HIGH
+F13     CCP_4_LOW
+F13     CCP_4
+F14     CCP_4_HIGH
+F16     CCP_3
+F16     CCP_3_LOW
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1_LOW
+FBB     CCP_1
+FBC     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+001008  @delay_ms1
+001030  main
+001030  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    lab2.c                                                  [09-feb.-17 08:28  CRC=0F23E99A]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+
+Source signature=4DE2F052
+
+Units:
+    D:\Plantilla_base\lab2 (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      lab2.err
+    Ext Symbols: lab2.esym
+    INHX32:      lab2.hex
+    Symbols:     lab2.sym
+    List:        lab2.lst
+    Debug/COFF:  lab2.cof
+    Project:     lab2.PJT
+    Call Tree:   lab2.tre
+    Statistics:  lab2.STA

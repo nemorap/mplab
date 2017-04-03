@@ -1,0 +1,8 @@
+>>> Warning 204 "analog_project.c" Line 72(1,1): Condition always FALSE
+>>> Warning 202 "analog_project.c" Line 38(7,15): Variable never used:   last_key
+>>> Warning 202 "analog_project.c" Line 39(7,18): Variable never used:   last_screen
+>>> Warning 202 "analog_project.c" Line 43(12,16): Variable never used:   dato
+>>> Warning 202 "analog_project.c" Line 43(25,28): Variable never used:   aux
+>>> Warning 202 "analog_project.c" Line 70(7,12): Variable never used:   valor
+      Memory usage:   ROM=5%      RAM=33% - 33%
+      0 Errors,  6 Warnings.

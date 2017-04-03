@@ -1,0 +1,89 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+CCP_3
+CCP_3_LOW
+CCP_3_HIGH
+CCP_4
+CCP_4_LOW
+CCP_4_HIGH
+CCP_5
+CCP_5_LOW
+CCP_5_HIGH
+CCP_6
+CCP_6_LOW
+CCP_6_HIGH
+CCP_7
+CCP_7_LOW
+CCP_7_HIGH
+CCP_8
+CCP_8_LOW
+CCP_8_HIGH
+CCP_9
+CCP_9_LOW
+CCP_9_HIGH
+CCP_10
+CCP_10_LOW
+CCP_10_HIGH
+C1OUT
+C2OUT
+C3OUT
+PLLEN
+text_glcd
+last_key
+last_screen
+posy
+aux
+x
+t
+i
+bandera
+dato1
+dato2
+dato
+valor2
+displayData
+FONT
+FONT2
+pe
+pl
+ql
+pas
+qas
+pat
+qat
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    tacometro.c                                             [25-mar.-17 11:17  CRC=A92416DF]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    GLCD_128x64_KS0108.c                                    [18-feb.-17 09:29  CRC=77F3865A]
+    C:\Program Files (x86)\PICC\drivers\graphics.c          [06-jul.-10 08:49  CRC=70BB89DE]
+    C:\Program Files (x86)\PICC\drivers\math.h              [11-abr.-11 09:02  CRC=A2852B04]
+
+Source signature=F7B2475B
+
+Units:
+    D:\Plantilla_base\tacometro (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Output file:    Relocatable
+
+Output Files:
+    Errors:      tacometro.err
+    Ext Symbols: tacometro.esym
+    Object:      tacometro.o
+    Symbols:     tacometro.osym

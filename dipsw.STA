@@ -1,0 +1,45 @@
+
+ROM used: 162 (0%)
+          166 (0%) including unused fragments
+
+          0 Average locations per line
+          9 Average locations per statement
+
+RAM used: 6 (0%) at main() level
+          6 (0%) worst case
+
+Stack used: 0 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   52    18 100  dipsw.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  832    18 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0    158  49   0   442  4.2  main
+
+Program metrics:
+    Functions               1
+    Statements              18
+    Comments                228
+    Volume (V)              442
+    Difficilty (D)          4.2
+    Effort to implement (E) 1876
+    Time to implement (T)   2 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   6
+    Maintainability (MI)    42
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE   158  61274  
+10000-1FFF6     0  65528  
+
+
+

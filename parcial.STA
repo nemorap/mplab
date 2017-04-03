@@ -1,0 +1,83 @@
+
+ROM used: 6670 (5%)
+          6674 (5%) including unused fragments
+
+          2 Average locations per line
+          9 Average locations per statement
+
+RAM used: 1091 (29%) at main() level
+          1126 (30%) worst case
+
+Stack used: 4 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  319   192  26  parcial.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  18  GLCD_128x64_KS0108.c
+  540   163  22  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  35  C:\Program Files (x86)\PICC\drivers\math.h
+   72     0   0  lobo.h
+----- -----
+ 4335   744 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0    170   1   1   580  3.2  glcd_init
+0    184   1   7   624  5.5  glcd_update
+0    188   1   9   491  8.4  glcd_pixel
+0     90   1  10   335  5.0  glcd_fillScreen
+0    214   2   3  1551  3.4  glcd_writeByte
+0    276   2   0             @const145
+0    240   2   0             @const148
+0    314   2  17  1519  9.2  glcd_line
+0    194   1   6  1071  6.1  glcd_rect
+0    424   3  20  1595 11.3  glcd_text57
+0   1042   8   0             @const357
+0    240   2  16   505  4.8  PrintLogo
+0   1500  11   2  5487  8.9  MAIN
+0     18   0   0             @const371
+0     32   0   1             @SPRINTF
+0     40   0   3             @PSTRINGC_373
+0      6   0   0             @const376
+0      6   0   0             @const377
+0      6   0   0             @const378
+0      6   0   0             @const379
+0      6   0   0             @const380
+0      6   0   0             @const381
+0      6   0   0             @const382
+0      6   0   0             @const383
+0      6   0   0             @const384
+0      6   0   0             @const385
+0      6   0   0             @const386
+0      6   0   0             @const387
+0    936   7   0  3819  5.9  tanque
+0     44   0   3             @DIV88
+0    222   2   6             @PRINTF_D_373
+0     16   0   0             @const399
+0    136   1   1   577  4.7  contador
+0     32   0   1    38  1.0  imagen
+
+Program metrics:
+    Functions               13
+    Statements              744
+    Comments                870
+    Volume (V)              26437
+    Difficilty (D)          75.6
+    Effort to implement (E) 1998490
+    Time to implement (T)   30 hours, 50 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   69
+    Maintainability (MI)    70
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  6666  54766  
+10000-1FFF6     0  65528  
+
+
+

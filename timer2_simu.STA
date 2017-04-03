@@ -1,0 +1,62 @@
+
+ROM used: 2878 (2%)
+          2878 (2%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 1109 (29%) at main() level
+          1135 (30%) worst case
+
+Stack used: 4 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  131    35   6  timer2_simu.c
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  22  GLCD_128x64_KS0108.c
+  540   163  28  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  44  C:\Program Files (x86)\PICC\drivers\math.h
+----- -----
+ 3999   587 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44   1   1             @delay_ms1
+0    170   3   1   580  3.2  glcd_init
+0    184   3   7   624  5.5  glcd_update
+0    190   3   9   491  8.4  glcd_pixel
+0     90   2  10   335  5.0  glcd_fillScreen
+0    214   4   3  1551  3.4  glcd_writeByte
+0    276   5   0             @const139
+0    240   4   0             @const142
+0    420   7  20  1595 11.3  glcd_text57
+0    324   6   1   860  2.4  MAIN
+0     32   1   1             @SPRINTF
+0     44   1   3             @DIV88
+0    222   4   6             @PRINTF_D_356
+0    190   3   9             @PRINTF_LU_356
+0     52   1   0   214  3.6  interr_TIMER2
+
+Program metrics:
+    Functions               8
+    Statements              587
+    Comments                780
+    Volume (V)              9062
+    Difficilty (D)          41.8
+    Effort to implement (E) 378850
+    Time to implement (T)   5 hours, 51 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   29
+    Maintainability (MI)    84
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000BC   182  0  
+000BE-0FFFE  2692  62654  
+10000-1FFF6     0  65528  
+
+
+

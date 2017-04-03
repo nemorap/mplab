@@ -1,0 +1,202 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     @INTERRUPT_AREA
+01A     @INTERRUPT_AREA
+01B-042 text_glcd
+043     last_key
+044     last_screen
+045     dato
+046     segundos
+047     minutos
+048-049 dato1
+04A     cont
+04B-051 valor2
+052-451 displayData
+452-453 @sprintf_string
+454-457 atan2.y
+454     MAIN.i
+455     glcd_init.mode
+455     @PRINTF_D_357.P1
+455     @delay_ms1.P2
+455-456 @PRINTF_LU_357.P3
+455     glcd_text57.x
+456     glcd_text57.y
+456     glcd_fillScreen.color
+456     glcd_update.i
+456     @PRINTF_D_357.P1
+457     glcd_update.j
+457-458 glcd_text57.textptr
+457     glcd_fillScreen.data
+457     @PRINTF_D_357.@SCRATCH1
+457     @PRINTF_LU_357.@SCRATCH1
+458-459 glcd_update.p1
+458-45B atan2.x
+458-459 glcd_fillScreen.p1
+458     @PRINTF_D_357.@SCRATCH2
+458     @PRINTF_LU_357.@SCRATCH2
+459     glcd_text57.size
+459     @PRINTF_D_357.@SCRATCH3
+459     @PRINTF_LU_357.@SCRATCH3
+45A     glcd_text57.color
+45A-45B glcd_fillScreen.p2
+45A-45B glcd_update.p2
+45A     @PRINTF_D_357.@SCRATCH4
+45A     @PRINTF_LU_357.@SCRATCH4
+45B     glcd_text57.j
+45B     @DIV88.P1
+45B     @PRINTF_LU_357.@SCRATCH5
+45C-45F atan2.z
+45C     glcd_text57.k
+45C     @DIV88.P1
+45C-45D glcd_fillScreen.i
+45C     glcd_update.@SCRATCH1
+45C     @PRINTF_LU_357.@SCRATCH6
+45D     glcd_text57.l
+45D     glcd_writeByte.side
+45D     @DIV88.@SCRATCH1
+45D     @PRINTF_LU_357.@SCRATCH7
+45E     glcd_text57.m
+45E     @SPRINTF.P1
+45E     glcd_writeByte.data
+45E     glcd_fillScreen.@SCRATCH1
+45F-463 glcd_text57.pixelData
+45F     glcd_fillScreen.@SCRATCH2
+45F     glcd_writeByte.@SCRATCH1
+460.0   atan2.sign
+461     atan2.quad
+464     glcd_text57.@SCRATCH1
+465     glcd_text57.@SCRATCH2
+466     glcd_pixel.x
+466     glcd_text57.@SCRATCH3
+467     glcd_pixel.y
+467     glcd_text57.@SCRATCH4
+468     glcd_pixel.color
+468     glcd_text57.@SCRATCH5
+469-46A glcd_pixel.p
+46B-46C glcd_pixel.temp
+46D     glcd_pixel.@SCRATCH1
+46E     glcd_pixel.@SCRATCH2
+F01     CCP_10
+F01     CCP_10_LOW
+F02     CCP_10_HIGH
+F04     CCP_9_LOW
+F04     CCP_9
+F05     CCP_9_HIGH
+F07     CCP_8
+F07     CCP_8_LOW
+F08     CCP_8_HIGH
+F0A     CCP_7
+F0A     CCP_7_LOW
+F0B     CCP_7_HIGH
+F0D     CCP_6
+F0D     CCP_6_LOW
+F0E     CCP_6_HIGH
+F10     CCP_5
+F10     CCP_5_LOW
+F11     CCP_5_HIGH
+F13     CCP_4_LOW
+F13     CCP_4
+F14     CCP_4_HIGH
+F16     CCP_3
+F16     CCP_3_LOW
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1_LOW
+FBB     CCP_1
+FBC     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+001588  @delay_ms1
+0014DE  glcd_init
+001426  glcd_update
+0016DE  glcd_pixel
+0013CC  glcd_fillScreen
+0012F6  glcd_writeByte
+0010BE  FONT
+0011D2  FONT2
+00179C  glcd_text57
+0019FE  MAIN
+0015E0  @SPRINTF
+0015B4  @DIV88
+001600  @PRINTF_D_357
+001940  @PRINTF_LU_357
+0012C2  interr_TIMER2
+0019FE  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    timer2.c                                                [20-mar.-17 22:06  CRC=7FDCD53F]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    GLCD_128x64_KS0108.c                                    [18-feb.-17 09:29  CRC=77F3865A]
+    C:\Program Files (x86)\PICC\drivers\graphics.c          [06-jul.-10 08:49  CRC=70BB89DE]
+    C:\Program Files (x86)\PICC\drivers\math.h              [11-abr.-11 09:02  CRC=A2852B04]
+
+Source signature=CE6B05BB
+
+Units:
+    D:\Plantilla_base\timer2 (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      timer2.err
+    Ext Symbols: timer2.esym
+    INHX32:      timer2.hex
+    Symbols:     timer2.sym
+    List:        timer2.lst
+    Debug/COFF:  timer2.cof
+    Project:     timer2.PJT
+    Call Tree:   timer2.tre
+    Statistics:  timer2.STA

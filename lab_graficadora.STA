@@ -1,0 +1,82 @@
+
+ROM used: 5624 (4%)
+          5628 (4%) including unused fragments
+
+          1 Average locations per line
+          9 Average locations per statement
+
+RAM used: 1197 (32%) at main() level
+          1231 (33%) worst case
+
+Stack used: 3 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  198   109  16  lab_graficadora.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  20  GLCD_128x64_KS0108.c
+  540   163  25  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  39  C:\Program Files (x86)\PICC\drivers\math.h
+   72     0   0  rias.h
+----- -----
+ 4214   661 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0    170   2   1   580  3.2  glcd_init
+0    184   2   7   624  5.5  glcd_update
+0    188   2   9   491  8.4  glcd_pixel
+0     90   1  10   335  5.0  glcd_fillScreen
+0    214   2   3  1551  3.4  glcd_writeByte
+0    276   2   0             @const137
+0    240   2   0             @const140
+0    314   3  17  1519  9.2  glcd_line
+0    194   2   6  1071  6.1  glcd_rect
+0    424   4  20  1595 11.3  glcd_text57
+0   1042   9   0             @const349
+0    238   2  16   505  4.8  PrintLogo
+0   1802  16   3  6547 10.4  MAIN
+0     18   0   0             @const360
+0     34   0   1             @SPRINTF
+0     40   0   3             @PSTRINGC_362
+0     14   0   0             @const365
+0      6   0   0             @const366
+0      6   0   0             @const367
+0      6   0   0             @const368
+0      6   0   0             @const369
+0      6   0   0             @const370
+0      6   0   0             @const371
+0      6   0   0             @const372
+0      6   0   0             @const373
+0      6   0   0             @const374
+0      6   0   0             @const375
+0      6   0   0             @const376
+0      6   0   0             @const377
+0      6   0   0             @const378
+0      6   0   0             @const379
+0      6   0   0             @const380
+0      6   0   0             @const381
+
+Program metrics:
+    Functions               10
+    Statements              661
+    Comments                873
+    Volume (V)              20754
+    Difficilty (D)          65.0
+    Effort to implement (E) 1348140
+    Time to implement (T)   20 hours, 48 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   50
+    Maintainability (MI)    109
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  5620  55812  
+10000-1FFF6     0  65528  
+
+
+

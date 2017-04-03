@@ -1,0 +1,46 @@
+
+ROM used: 224 (0%)
+          228 (0%) including unused fragments
+
+          0 Average locations per line
+          12 Average locations per statement
+
+RAM used: 5 (0%) at main() level
+          6 (0%) worst case
+
+Stack used: 1 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   58    19 100  hola_display.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  838    19 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   9   1             @delay_ms1
+0    180  40   0   389  3.3  main
+
+Program metrics:
+    Functions               1
+    Statements              19
+    Comments                227
+    Volume (V)              391
+    Difficilty (D)          3.2
+    Effort to implement (E) 1248
+    Time to implement (T)   1 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   2
+    Maintainability (MI)    43
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE   220  61212  
+10000-1FFF6     0  65528  
+
+
+

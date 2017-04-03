@@ -1,0 +1,66 @@
+
+ROM used: 1056 (1%)
+          1060 (1%) including unused fragments
+
+          1 Average locations per line
+          11 Average locations per statement
+
+RAM used: 8 (0%) at main() level
+          23 (1%) worst case
+
+Stack used: 6 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  110    50  53  trabajo3_lcd.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  237    45  47  flex_lcd.c
+----- -----
+ 1127    95 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   2   1             @delay_ms1
+0     24   1   0             @const102
+0     70   3   1   326  2.8  lcd_send_nibble
+0     60   3   3   235  3.8  lcd_send_byte
+0     80   4   2   380  4.7  lcd_init
+0     36   2   4   186  5.5  lcd_gotoxy
+0     68   3   1   272  4.1  lcd_putc
+0    342  16   1  1129  5.8  MAIN
+0     18   1   0             @const129
+0     40   2   3             @PSTRINGC_115
+0     16   1   0             @const131
+0      2   0   0             @const132
+0      2   0   0             @const133
+0      2   0   0             @const134
+0      2   0   0             @const135
+0      2   0   0             @const136
+0     40   2   3             @DIV88
+0     98   5   5   257  3.5  valor_lcd
+0      6   0   0             @const143
+0     98   5   5   257  3.5  valor_lcd1
+0      6   0   0             @const147
+
+Program metrics:
+    Functions               8
+    Statements              95
+    Comments                270
+    Volume (V)              4619
+    Difficilty (D)          32.0
+    Effort to implement (E) 147947
+    Time to implement (T)   2 hours, 17 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   14
+    Maintainability (MI)    118
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  1052  60380  
+10000-1FFF6     0  65528  
+
+
+

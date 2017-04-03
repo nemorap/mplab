@@ -1,0 +1,70 @@
+
+ROM used: 5112 (4%)
+          5116 (4%) including unused fragments
+
+          1 Average locations per line
+          7 Average locations per statement
+
+RAM used: 1224 (33%) at main() level
+          1248 (33%) worst case
+
+Stack used: 3 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  226   191  26  teclado1.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  18  GLCD_128x64_KS0108.c
+  540   163  22  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  35  C:\Program Files (x86)\PICC\drivers\math.h
+   72     0   0  rias.h
+----- -----
+ 4242   743 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0    170   2   1   580  3.2  glcd_init
+0    184   2   7   624  5.5  glcd_update
+0    188   2   9   491  8.4  glcd_pixel
+0     90   1  10   335  5.0  glcd_fillScreen
+0    214   2   3  1551  3.4  glcd_writeByte
+0    276   3   0             @const148
+0    240   2   0             @const151
+0    314   3  17  1519  9.2  glcd_line
+0    424   4  20  1595 11.3  glcd_text57
+0   1042  10   0             @const360
+0    238   2  16   505  4.8  PrintLogo
+0    998  10   3  3376  7.9  MAIN
+0     18   0   0             @const372
+0     32   0   1             @SPRINTF
+0     40   0   3             @PSTRINGC_374
+0     14   0   0             @const377
+0     44   0   3             @DIV88
+0    224   2   6             @PRINTF_D_374
+0     18   0   0             @const387
+0     20   0   0             @const388
+0    278   3   0  2478  3.9  teclado
+
+Program metrics:
+    Functions               10
+    Statements              743
+    Comments                841
+    Volume (V)              18905
+    Difficilty (D)          61.1
+    Effort to implement (E) 1154582
+    Time to implement (T)   17 hours, 49 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   64
+    Maintainability (MI)    110
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  5108  56324  
+10000-1FFF6     0  65528  
+
+
+

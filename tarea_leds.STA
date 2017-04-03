@@ -1,0 +1,45 @@
+
+ROM used: 240 (0%)
+          244 (0%) including unused fragments
+
+          0 Average locations per line
+          7 Average locations per statement
+
+RAM used: 7 (0%) at main() level
+          7 (0%) worst case
+
+Stack used: 0 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   73    33 100  tarea_leds.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  853    33 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0    236  49   1   961  7.8  main
+
+Program metrics:
+    Functions               1
+    Statements              33
+    Comments                228
+    Volume (V)              961
+    Difficilty (D)          7.8
+    Effort to implement (E) 7447
+    Time to implement (T)   7 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   9
+    Maintainability (MI)    27
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE   236  61196  
+10000-1FFF6     0  65528  
+
+
+

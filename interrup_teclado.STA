@@ -1,0 +1,70 @@
+
+ROM used: 4930 (4%)
+          4930 (4%) including unused fragments
+
+          1 Average locations per line
+          7 Average locations per statement
+
+RAM used: 1237 (33%) at main() level
+          1262 (34%) worst case
+
+Stack used: 5 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  228   149  21  interrup_teclado.c
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  19  GLCD_128x64_KS0108.c
+  540   163  23  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  37  C:\Program Files (x86)\PICC\drivers\math.h
+   72     0   0  rias.h
+----- -----
+ 4168   701 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   0   1             @delay_ms1
+0    170   2   1   580  3.2  glcd_init
+0    184   2   7   624  5.5  glcd_update
+0    188   2   9   491  8.4  glcd_pixel
+0     90   1  10   335  5.0  glcd_fillScreen
+0    214   2   3  1551  3.4  glcd_writeByte
+0    276   3   0             @const145
+0    240   2   0             @const148
+0    314   3  17  1519  9.2  glcd_line
+0    424   4  20  1595 11.3  glcd_text57
+0   1042  11   0             @const357
+0    238   2  16   505  4.8  PrintLogo
+0    556   6   2  1461  3.4  MAIN
+0     18   0   0             @const370
+0     32   0   1             @SPRINTF
+0     40   0   3             @PSTRINGC_372
+0     14   0   0             @const375
+0     10   0   0             @const376
+0    148   2  13             @DIV3232
+0    192   2  12             @PRINTF_L32U_372
+0    302   3   0  2736  4.0  teclado
+0     10   0   0    27  0.9  interr_TIMER2
+
+Program metrics:
+    Functions               11
+    Statements              701
+    Comments                831
+    Volume (V)              16868
+    Difficilty (D)          58.0
+    Effort to implement (E) 978056
+    Time to implement (T)   15 hours, 6 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   56
+    Maintainability (MI)    104
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000BC   182  0  
+000BE-0FFFE  4744  60602  
+10000-1FFF6     0  65528  
+
+
+

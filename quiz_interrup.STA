@@ -1,0 +1,64 @@
+
+ROM used: 2736 (2%)
+          2736 (2%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 1107 (29%) at main() level
+          1134 (30%) worst case
+
+Stack used: 5 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  144    42   7  quiz_interrup.c
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  404   132  22  GLCD_128x64_KS0108.c
+  540   163  27  C:\Program Files (x86)\PICC\drivers\graphics.c
+ 2220   257  43  C:\Program Files (x86)\PICC\drivers\math.h
+----- -----
+ 4012   594 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   1   1             @delay_ms1
+0    170   3   1   580  3.2  glcd_init
+0    184   3   7   624  5.5  glcd_update
+0    190   3   9   491  8.4  glcd_pixel
+0     90   2  10   335  5.0  glcd_fillScreen
+0    214   4   3  1551  3.4  glcd_writeByte
+0    276   5   0             @const137
+0    240   4   0             @const140
+0    420   8  20  1595 11.3  glcd_text57
+0    432   8   1  1281  4.8  MAIN
+0     12   0   0             @const352
+0     32   1   1             @SPRINTF
+0     40   1   3             @PSTRINGC_354
+0     44   1   3             @DIV88
+0    124   2   2             @PRINTF_U_354
+0     10   0   0             @const364
+0     30   1   0    82  1.6  interr_EXTERNA
+
+Program metrics:
+    Functions               8
+    Statements              594
+    Comments                780
+    Volume (V)              9380
+    Difficilty (D)          42.2
+    Effort to implement (E) 395398
+    Time to implement (T)   6 hours, 6 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   29
+    Maintainability (MI)    84
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000BC   182  0  
+000BE-0FFFE  2550  62796  
+10000-1FFF6     0  65528  
+
+
+

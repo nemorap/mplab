@@ -1,0 +1,238 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-02B text_glcd
+02C     last_key
+02D     last_screen
+02E     dato
+02F     posy
+030     aux
+031     x
+032     t
+033     i
+034     bandera
+035     dato1
+036     dato2
+037     cont
+038-03E valor2
+03F-43E displayData
+43F-440 @sprintf_string
+441-444 atan2.y
+441     MAIN.i
+442     @PRINTF_D_373.P1
+442     glcd_init.mode
+442     glcd_rect.x1
+442-443 PrintLogo.h
+442     glcd_text57.x
+442     MAIN.@SCRATCH1
+442     @PSTRINGC_373.@SCRATCH1
+442     contador.@SCRATCH1
+442     imagen.@SCRATCH1
+443     @delay_ms1.P1
+443     glcd_text57.y
+443     glcd_update.i
+443     glcd_rect.y1
+443     @PRINTF_D_373.P1
+443     @PSTRINGC_373.@SCRATCH2
+444     glcd_rect.x2
+444-445 glcd_text57.textptr
+444     glcd_update.j
+444-445 PrintLogo.i
+444     @PSTRINGC_373.@SCRATCH3
+444     @PRINTF_D_373.@SCRATCH1
+445-448 atan2.x
+445     glcd_rect.y2
+445-446 glcd_update.p1
+445     @PRINTF_D_373.@SCRATCH2
+446     glcd_rect.fill
+446-447 PrintLogo.j
+446     glcd_text57.size
+446     @PRINTF_D_373.@SCRATCH3
+447     glcd_rect.color
+447     glcd_text57.color
+447-448 glcd_update.p2
+447     @PRINTF_D_373.@SCRATCH4
+448-449 PrintLogo.k
+448     glcd_text57.j
+448     i
+448     @SPRINTF.P1
+448     @DIV88.P2
+449-44C atan2.z
+449     xmin
+449     @DIV88.P1
+449     glcd_text57.k
+449     glcd_update.@SCRATCH1
+44A     xmax
+44A     glcd_writeByte.side
+44A     glcd_text57.l
+44A-44B PrintLogo.l
+44A     @DIV88.@SCRATCH1
+44B     ymin
+44B     glcd_writeByte.data
+44B     glcd_text57.m
+44C     glcd_fillScreen.color
+44C     ymax
+44C-450 glcd_text57.pixelData
+44C     glcd_writeByte.@SCRATCH1
+44C     PrintLogo.@SCRATCH1
+44D     glcd_line.x1
+44D.0   atan2.sign
+44D     glcd_fillScreen.data
+44D     PrintLogo.@SCRATCH2
+44E     glcd_line.y1
+44E     atan2.quad
+44E-44F glcd_fillScreen.p1
+44E     PrintLogo.@SCRATCH3
+44F     glcd_line.x2
+44F     PrintLogo.@SCRATCH4
+450-451 glcd_fillScreen.p2
+450     glcd_line.y2
+450     PrintLogo.@SCRATCH5
+451     glcd_line.color
+451     glcd_text57.@SCRATCH1
+451     PrintLogo.@SCRATCH6
+452-453 glcd_line.dy
+452-453 glcd_fillScreen.i
+452     glcd_text57.@SCRATCH2
+453     glcd_text57.@SCRATCH3
+454-455 glcd_line.dx
+454     glcd_fillScreen.@SCRATCH1
+454     glcd_text57.@SCRATCH4
+455     glcd_fillScreen.@SCRATCH2
+455     glcd_text57.@SCRATCH5
+456     glcd_line.addx
+457     glcd_line.addy
+458-459 glcd_line.p
+45A-45B glcd_line.diff
+45C     glcd_line.i
+45D     glcd_pixel.x
+45D     glcd_line.@SCRATCH1
+45E     glcd_pixel.y
+45F     glcd_pixel.color
+460-461 glcd_pixel.p
+462-463 glcd_pixel.temp
+464     glcd_pixel.@SCRATCH1
+465     glcd_pixel.@SCRATCH2
+F01     CCP_10
+F01     CCP_10_LOW
+F02     CCP_10_HIGH
+F04     CCP_9_LOW
+F04     CCP_9
+F05     CCP_9_HIGH
+F07     CCP_8_LOW
+F07     CCP_8
+F08     CCP_8_HIGH
+F0A     CCP_7
+F0A     CCP_7_LOW
+F0B     CCP_7_HIGH
+F0D     CCP_6_LOW
+F0D     CCP_6
+F0E     CCP_6_HIGH
+F10     CCP_5
+F10     CCP_5_LOW
+F11     CCP_5_HIGH
+F13     CCP_4_LOW
+F13     CCP_4
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1
+FBB     CCP_1_LOW
+FBC     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+001D00  @delay_ms1
+001870  glcd_init
+0017B8  glcd_update
+001962  glcd_pixel
+00175E  glcd_fillScreen
+001688  glcd_writeByte
+001008  FONT
+00111C  FONT2
+001BC6  glcd_line
+001D2A  glcd_rect
+001A1E  glcd_text57
+00120C  lobo
+001F7E  PrintLogo
+002436  MAIN
+00161E  @const371
+00191A  @SPRINTF
+00193A  @PSTRINGC_373
+001630  @const376
+001636  @const377
+00163C  @const378
+001642  @const379
+001648  @const380
+00164E  @const381
+001654  @const382
+00165A  @const383
+001660  @const384
+001666  @const385
+00166C  @const386
+001672  @const387
+00208E  tanque
+001DEC  @DIV88
+001E18  @PRINTF_D_373
+001678  @const399
+001EF6  contador
+00206E  imagen
+002436  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    parcial.c                                               [07-mar.-17 09:15  CRC=75B47AA2]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    GLCD_128x64_KS0108.c                                    [18-feb.-17 09:29  CRC=77F3865A]
+    C:\Program Files (x86)\PICC\drivers\graphics.c          [06-jul.-10 08:49  CRC=70BB89DE]
+    C:\Program Files (x86)\PICC\drivers\math.h              [11-abr.-11 09:02  CRC=A2852B04]
+    lobo.h                                                  [18-feb.-17 10:15  CRC=2441A8C4]
+
+Source signature=6A40D1A2
+
+Units:
+    D:\Plantilla_base\parcial (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      parcial.err
+    Ext Symbols: parcial.esym
+    INHX32:      parcial.hex
+    Symbols:     parcial.sym
+    List:        parcial.lst
+    Debug/COFF:  parcial.cof
+    Project:     parcial.PJT
+    Call Tree:   parcial.tre
+    Statistics:  parcial.STA

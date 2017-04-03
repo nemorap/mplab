@@ -1,0 +1,72 @@
+
+ROM used: 1374 (1%)
+          1378 (1%) including unused fragments
+
+          1 Average locations per line
+          9 Average locations per statement
+
+RAM used: 10 (0%) at main() level
+          26 (1%) worst case
+
+Stack used: 6 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  175   105  70  lab_lcd.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+  237    45  30  flex_lcd.c
+----- -----
+ 1192   150 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   1   1             @delay_ms1
+0     24   1   0             @const102
+0     70   3   1   326  2.8  lcd_send_nibble
+0     60   2   3   235  3.8  lcd_send_byte
+0     80   3   2   380  4.7  lcd_init
+0     36   1   4   186  5.5  lcd_gotoxy
+0     68   2   1   272  4.1  lcd_putc
+0    654  24   0  3195  8.4  MAIN
+0     16   1   0             @const132
+0     40   1   3             @PSTRINGC_115
+0     14   1   0             @const134
+0      2   0   0             @const135
+0      2   0   0             @const136
+0      2   0   0             @const137
+0     16   1   0             @const138
+0      2   0   0             @const139
+0     16   1   0             @const140
+0     16   1   0             @const141
+0     16   1   0             @const142
+0      2   0   0             @const143
+0     18   1   0             @const144
+0      2   0   0             @const145
+0     12   0   0             @const146
+0     40   1   3             @DIV88
+0    112   4   5   282  3.5  valor_lcd
+0      8   0   0             @const153
+0      2   0   0             @const154
+
+Program metrics:
+    Functions               7
+    Statements              150
+    Comments                269
+    Volume (V)              6527
+    Difficilty (D)          31.1
+    Effort to implement (E) 203004
+    Time to implement (T)   3 hours, 8 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   34
+    Maintainability (MI)    76
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  1370  60062  
+10000-1FFF6     0  65528  
+
+
+

@@ -1,0 +1,46 @@
+
+ROM used: 1178 (1%)
+          1182 (1%) including unused fragments
+
+          1 Average locations per line
+          10 Average locations per statement
+
+RAM used: 28 (1%) at main() level
+          28 (1%) worst case
+
+Stack used: 1 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  162   114 100  trabajo2.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  942   114 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   2   1             @delay_ms1
+0   1134  48   3  5038  9.9  main
+
+Program metrics:
+    Functions               1
+    Statements              114
+    Comments                228
+    Volume (V)              5041
+    Difficilty (D)          9.9
+    Effort to implement (E) 49871
+    Time to implement (T)   46 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   19
+    Maintainability (MI)    -4
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE  1174  60258  
+10000-1FFF6     0  65528  
+
+
+

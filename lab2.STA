@@ -1,0 +1,46 @@
+
+ROM used: 396 (0%)
+          400 (0%) including unused fragments
+
+          0 Average locations per line
+          10 Average locations per statement
+
+RAM used: 30 (1%) at main() level
+          30 (1%) worst case
+
+Stack used: 1 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   85    40 100  lab2.c
+   76     0   0  EMm47J53_StackConfig.h
+  704     0   0  C:\Program Files (x86)\PICC\devices\18F47J53.h
+----- -----
+  865    40 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   5   1             @delay_ms1
+0    352  44   1  1139  5.4  main
+
+Program metrics:
+    Functions               1
+    Statements              40
+    Comments                228
+    Volume (V)              1142
+    Difficilty (D)          5.3
+    Effort to implement (E) 6046
+    Time to implement (T)   6 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   6
+    Maintainability (MI)    24
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00FFE     0  4096  
+01000-01006     4  4  
+01008-0FFFE   392  61040  
+10000-1FFF6     0  65528  
+
+
+

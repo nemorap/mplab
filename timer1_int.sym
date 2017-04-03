@@ -1,0 +1,174 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-02B text_glcd
+02C     last_key
+02D     last_screen
+02E     dato
+02F     posy
+030     aux
+031     x
+032     t
+033     i
+034     bandera
+035     dato1
+036     dato2
+037     cont
+038-03E valor2
+03F-43E displayData
+43F-440 @sprintf_string
+441     MAIN.i
+441-444 atan2.y
+442     glcd_init.mode
+442     @PRINTF_D_362.P1
+442     glcd_text57.x
+442     @delay_ms1.P1
+443     glcd_fillScreen.color
+443     glcd_update.i
+443     glcd_text57.y
+443     @PRINTF_D_362.P1
+444-445 glcd_text57.textptr
+444     glcd_fillScreen.data
+444     glcd_update.j
+444     @PRINTF_D_362.@SCRATCH1
+445-446 glcd_update.p1
+445-446 glcd_fillScreen.p1
+445-448 atan2.x
+445     @PRINTF_D_362.@SCRATCH2
+446     glcd_text57.size
+446     @PRINTF_D_362.@SCRATCH3
+447-448 glcd_update.p2
+447-448 glcd_fillScreen.p2
+447     glcd_text57.color
+447     @PRINTF_D_362.@SCRATCH4
+448     @SPRINTF.P1
+448     @DIV88.P2
+448     glcd_text57.j
+449-44A glcd_fillScreen.i
+449     glcd_text57.k
+449     @DIV88.P1
+449-44C atan2.z
+449     glcd_update.@SCRATCH1
+44A     glcd_writeByte.side
+44A     glcd_text57.l
+44A     @DIV88.@SCRATCH1
+44B     glcd_writeByte.data
+44B     glcd_text57.m
+44B     glcd_fillScreen.@SCRATCH1
+44C-450 glcd_text57.pixelData
+44C     glcd_fillScreen.@SCRATCH2
+44C     glcd_writeByte.@SCRATCH1
+44D.0   atan2.sign
+44E     atan2.quad
+451     glcd_text57.@SCRATCH1
+452     glcd_text57.@SCRATCH2
+453     glcd_pixel.x
+453     glcd_text57.@SCRATCH3
+454     glcd_pixel.y
+454     glcd_text57.@SCRATCH4
+455     glcd_pixel.color
+455     glcd_text57.@SCRATCH5
+456-457 glcd_pixel.p
+458-459 glcd_pixel.temp
+45A     glcd_pixel.@SCRATCH1
+45B     glcd_pixel.@SCRATCH2
+F01     CCP_10_LOW
+F01     CCP_10
+F02     CCP_10_HIGH
+F04     CCP_9_LOW
+F04     CCP_9
+F05     CCP_9_HIGH
+F07     CCP_8
+F07     CCP_8_LOW
+F08     CCP_8_HIGH
+F0A     CCP_7_LOW
+F0A     CCP_7
+F0B     CCP_7_HIGH
+F0D     CCP_6_LOW
+F0D     CCP_6
+F0E     CCP_6_HIGH
+F10     CCP_5
+F10     CCP_5_LOW
+F11     CCP_5_HIGH
+F13     CCP_4
+F13     CCP_4_LOW
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1
+FBB     CCP_1_LOW
+FBC     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+00149E  @delay_ms1
+0013F4  glcd_init
+00133C  glcd_update
+0015F6  glcd_pixel
+0012E2  glcd_fillScreen
+00120C  glcd_writeByte
+001008  FONT
+00111C  FONT2
+0016B4  glcd_text57
+00185A  MAIN
+0014F6  @SPRINTF
+0014CA  @DIV88
+001516  @PRINTF_D_362
+00185A  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    timer1_int.c                                            [18-mar.-17 11:04  CRC=1E8BC255]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    GLCD_128x64_KS0108.c                                    [18-feb.-17 09:29  CRC=77F3865A]
+    C:\Program Files (x86)\PICC\drivers\graphics.c          [06-jul.-10 08:49  CRC=70BB89DE]
+    C:\Program Files (x86)\PICC\drivers\math.h              [11-abr.-11 09:02  CRC=A2852B04]
+
+Source signature=6D19F2D1
+
+Units:
+    D:\Plantilla_base\timer1_int (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      timer1_int.err
+    Ext Symbols: timer1_int.esym
+    INHX32:      timer1_int.hex
+    Symbols:     timer1_int.sym
+    List:        timer1_int.lst
+    Debug/COFF:  timer1_int.cof
+    Project:     timer1_int.PJT
+    Call Tree:   timer1_int.tre
+    Statistics:  timer1_int.STA

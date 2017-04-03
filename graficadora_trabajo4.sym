@@ -1,0 +1,198 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-02B text_glcd
+02C     last_key
+02D     last_screen
+02E-0A5 vector
+0A6     dato
+0A7     posy
+0A8     aux
+0A9     x
+0AA     t
+0AB     i
+0AC-4AB displayData
+4AC-4AD @sprintf_string
+4AE     MAIN.i
+4AE-4B1 atan2.y
+4AF     glcd_line.x1
+4AF     glcd_text57.x
+4AF     glcd_init.mode
+4AF-4B0 PrintLogo.h
+4AF     MAIN.@SCRATCH1
+4AF     @PSTRINGC_366.@SCRATCH1
+4B0     glcd_text57.y
+4B0     glcd_update.i
+4B0     @delay_ms1.P1
+4B0     glcd_line.y1
+4B0     MAIN.@SCRATCH2
+4B0     @PSTRINGC_366.@SCRATCH2
+4B1-4B2 glcd_text57.textptr
+4B1     glcd_update.j
+4B1     glcd_line.x2
+4B1-4B2 PrintLogo.i
+4B1     MAIN.@SCRATCH3
+4B1     @PSTRINGC_366.@SCRATCH3
+4B2-4B3 glcd_update.p1
+4B2     @SPRINTF.P1
+4B2-4B5 atan2.x
+4B2     glcd_line.y2
+4B3-4B4 PrintLogo.j
+4B3     glcd_line.color
+4B3     glcd_text57.size
+4B4-4B5 glcd_line.dy
+4B4     glcd_text57.color
+4B4-4B5 glcd_update.p2
+4B5-4B6 PrintLogo.k
+4B5     glcd_text57.j
+4B6-4B9 atan2.z
+4B6-4B7 glcd_line.dx
+4B6     glcd_text57.k
+4B6     glcd_update.@SCRATCH1
+4B7     glcd_text57.l
+4B7-4B8 PrintLogo.l
+4B7     glcd_writeByte.side
+4B8     glcd_text57.m
+4B8     glcd_line.addx
+4B8     glcd_writeByte.data
+4B9-4BD glcd_text57.pixelData
+4B9     glcd_fillScreen.color
+4B9     glcd_line.addy
+4B9     glcd_writeByte.@SCRATCH1
+4B9     PrintLogo.@SCRATCH1
+4BA     glcd_fillScreen.data
+4BA-4BB glcd_line.p
+4BA.0   atan2.sign
+4BA     PrintLogo.@SCRATCH2
+4BB     atan2.quad
+4BB-4BC glcd_fillScreen.p1
+4BB     PrintLogo.@SCRATCH3
+4BC-4BD glcd_line.diff
+4BC     PrintLogo.@SCRATCH4
+4BD-4BE glcd_fillScreen.p2
+4BD     PrintLogo.@SCRATCH5
+4BE     glcd_line.i
+4BE     glcd_text57.@SCRATCH1
+4BE     PrintLogo.@SCRATCH6
+4BF-4C0 glcd_fillScreen.i
+4BF     glcd_line.@SCRATCH1
+4BF     glcd_text57.@SCRATCH2
+4C0     glcd_pixel.x
+4C0     glcd_text57.@SCRATCH3
+4C1     glcd_pixel.y
+4C1     glcd_fillScreen.@SCRATCH1
+4C1     glcd_text57.@SCRATCH4
+4C2     glcd_pixel.color
+4C2     glcd_fillScreen.@SCRATCH2
+4C2     glcd_text57.@SCRATCH5
+4C3-4C4 glcd_pixel.p
+4C5-4C6 glcd_pixel.temp
+4C7     glcd_pixel.@SCRATCH1
+4C8     glcd_pixel.@SCRATCH2
+F01     CCP_10_LOW
+F01     CCP_10
+F02     CCP_10_HIGH
+F04     CCP_9
+F04     CCP_9_LOW
+F05     CCP_9_HIGH
+F07     CCP_8
+F07     CCP_8_LOW
+F08     CCP_8_HIGH
+F0A     CCP_7
+F0A     CCP_7_LOW
+F0B     CCP_7_HIGH
+F0D     CCP_6_LOW
+F0D     CCP_6
+F0E     CCP_6_HIGH
+F10     CCP_5_LOW
+F10     CCP_5
+F11     CCP_5_HIGH
+F13     CCP_4_LOW
+F13     CCP_4
+F14     CCP_4_HIGH
+F16     CCP_3_LOW
+F16     CCP_3
+F17     CCP_3_HIGH
+F70.0   C1OUT
+F70.1   C2OUT
+F70.2   C3OUT
+F9B.6   PLLEN
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1
+FBB     CCP_1_LOW
+FBC     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+001CD4  @delay_ms1
+001844  glcd_init
+00178C  glcd_update
+001936  glcd_pixel
+001732  glcd_fillScreen
+00165C  glcd_writeByte
+001008  FONT
+00111C  FONT2
+001B9A  glcd_line
+0019F2  glcd_text57
+00120C  lobo
+001CFE  PrintLogo
+001DEC  MAIN
+00161E  @const364
+0018EE  @SPRINTF
+00190E  @PSTRINGC_366
+001630  @const369
+00163E  @const370
+00164A  @const371
+001DEC  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Plantilla_base\
+
+Project Files:
+    graficadora_trabajo4.c                                  [20-feb.-17 09:36  CRC=004FE8E6]
+    EMm47J53_StackConfig.h                                  [14-may.-11 07:36  CRC=02EA8DC0]
+    C:\Program Files (x86)\PICC\devices\18F47J53.h          [13-abr.-11 15:02  CRC=1DEA3C7C]
+    GLCD_128x64_KS0108.c                                    [18-feb.-17 09:29  CRC=77F3865A]
+    C:\Program Files (x86)\PICC\drivers\graphics.c          [06-jul.-10 08:49  CRC=70BB89DE]
+    C:\Program Files (x86)\PICC\drivers\math.h              [11-abr.-11 09:02  CRC=A2852B04]
+    lobo.h                                                  [18-feb.-17 10:15  CRC=2441A8C4]
+
+Source signature=F4DC3FE6
+
+Units:
+    D:\Plantilla_base\graficadora_trabajo4 (main)
+
+Compiler Settings:
+    Processor:      PIC18F47J53
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      graficadora_trabajo4.err
+    Ext Symbols: graficadora_trabajo4.esym
+    INHX32:      graficadora_trabajo4.hex
+    Symbols:     graficadora_trabajo4.sym
+    List:        graficadora_trabajo4.lst
+    Debug/COFF:  graficadora_trabajo4.cof
+    Project:     graficadora_trabajo4.PJT
+    Call Tree:   graficadora_trabajo4.tre
+    Statistics:  graficadora_trabajo4.STA
